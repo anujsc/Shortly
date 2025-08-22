@@ -18,7 +18,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',                                    // For local development
-    'https://url-shortner-client-0lrg.onrender.com'           // For production
+    'https://shortly-client.onrender.com/'           // For production
   ],
   credentials: true
 }));
